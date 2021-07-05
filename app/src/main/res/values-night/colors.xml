@@ -9,7 +9,7 @@
     <color name="main_color">#313745</color>
     <color name="button_color">#20A9F7</color>
 
-    <!-- light mode colors -->
-    <color name="background_color">#FCFEFF</color>
+    <!-- dark mode colors -->
+    <color name="background_color">#121D21</color>
 
 </resources>
