@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- basic colors -->
     <color name="black">#FF000000</color>
@@ -8,8 +8,10 @@
     <!-- main colors -->
     <color name="main_color">#313745</color>
     <color name="button_color">#20A9F7</color>
+    <color name="ripple_color">#2A2C29</color>
 
     <!-- light mode colors -->
     <color name="background_color">#FCFEFF</color>
+    <color name="icon_color" tools:ignore="MissingDefaultResource">#121D21</color>
 
 </resources>

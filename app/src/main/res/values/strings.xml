@@ -1,3 +1,10 @@
 <resources>
+
+    <!-- Application Name -->
     <string name="app_name">Bill Splitter</string>
+
+    <!-- Shared Preference Key Words -->
+    <string name="user_settings">User Settings</string> <!-- user settings -->
+    <string name="dark_Mode">Dark Mode</string> <!-- key for dark mode -->
+
 </resources>
