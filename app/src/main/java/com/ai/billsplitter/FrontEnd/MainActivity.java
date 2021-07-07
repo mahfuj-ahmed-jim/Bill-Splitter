@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        darkModeStatus(); // check dark mode status
+        //darkModeStatus(); // check dark mode status
 
         // initialize views
         // bottom navigation view

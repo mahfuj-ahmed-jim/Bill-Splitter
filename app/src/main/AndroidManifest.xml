@@ -4,18 +4,23 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/square_log"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/round_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.BillSplitter">
-        <activity android:name=".FrontEnd.MainActivity"
+        <activity android:name=".FrontEnd.SplashScreen"
+            android:theme="@style/CustomSplashTheme"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".FrontEnd.MainActivity"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

@@ -41,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <LinearLayout
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="7dp"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -66,7 +66,7 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profileCircleImageView_id"
-                    android:src="@drawable/profile"
+                    android:src="@drawable/picture"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -76,6 +76,113 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                 </de.hdodenhof.circleimageview.CircleImageView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textSize="22dp"
+                android:textColor="@color/icon_color"
+                android:text="Mahfuj Ahmed Jim"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/darkModeLayout_id"
+                android:clickable="true"
+                android:background="@drawable/ripple_background"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.20" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.80" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.035" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.17" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.965" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/dark_mode"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline12"
+                    app:layout_constraintDimensionRatio="h,1:1"
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toTopOf="@+id/guideline11"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Dark Mode"
+                    android:textColor="@color/icon_color"
+                    android:textSize="18dp"
+                    app:layout_constraintStart_toStartOf="@+id/guideline13">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/darkModeTextView_id"
+                    android:textSize="14dp"
+                    android:layout_marginRight="12dp"
+                    android:textColor="@color/icon_color"
+                    android:text="On"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toStartOf="@+id/darkModeSwitch_id">
+
+                </TextView>
+
+                <Switch
+                    android:id="@+id/darkModeSwitch_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:thumbTint="@color/icon_color"
+                    android:trackTint="@color/shadow_color"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline14">
+
+                </Switch>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
