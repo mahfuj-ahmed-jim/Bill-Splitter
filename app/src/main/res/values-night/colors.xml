@@ -8,12 +8,12 @@
     <!-- main colors -->
     <color name="main_color">#313745</color>
     <color name="button_color">#20A9F7</color>
-    <color name="ripple_color">#2A2C29</color>
+    <color name="ripple_color">#888888</color>
     <color name="shade_color">#31384A</color>
-    <color name="shadow_color">#2A2C29</color>
+    <color name="shadow_color">#BDBFBC</color>
 
-    <!-- light mode colors -->
-    <color name="background_color">#FCFEFF</color>
-    <color name="icon_color" tools:ignore="MissingDefaultResource">#121D21</color>
+    <!-- dark mode colors -->
+    <color name="background_color">#121D23</color>
+    <color name="icon_color" tools:ignore="MissingDefaultResource">#FCFEFF</color>
 
 </resources>
